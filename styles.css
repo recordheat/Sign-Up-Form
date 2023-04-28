@@ -1,0 +1,113 @@
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    align-items: stretch;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 0 0 40%;
+    background-image: url('aesthetic-anime-whisper-heart-night-qjj6n43ytx3hbaz9.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding-top: 60px;
+}
+
+.image-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 200px;
+}
+
+.image-logo, img {
+    width: 150px;
+    height: 200px;
+}
+
+.image-logo > p{
+    font-family: 'Norse';
+    font-size: 10rem;
+    color: whitesmoke;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+.form-area {
+    flex: 0 0 60%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Brewell';
+}
+
+.form-area > .mock-text-service {
+    color: white;
+    font-size: 36px;   
+    padding-left: 36px;
+    word-spacing: 5px;
+}
+
+
+.form-right {
+    display: flex;
+    flex-flow: row wrap;
+    width: 1000px;
+    height: 300px;
+    gap: 40px;
+}
+
+form {
+    padding-left: 20px;
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    color: white;
+    width: 350px;
+    opacity: 50%;
+}
+
+button {
+    color: blueviolet;
+    height: 75px;
+    width: 200px;
+    border-radius: 16px;
+    font-size: 1.5em;
+    border-color: purple;
+    background-color: black;
+    font-family: 'Brewell';
+}
+
+button:hover {
+    background-color: rgb(214, 11, 160);
+}
+
+.account-login {
+    font-size: 24px;
+    color: white;  
+}
+
+.account-login a {
+    color: purple;
+}
+
+footer {
+    position: absolute;
+    top: 920px;
+    color: white;
+    font-family: 'Brewell';
+}
+
+
