@@ -25,12 +25,15 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    height: 200px;
+    height: 285px;
+    width: 767px;
+    background: black;
+    opacity: 0.5;
 }
 
-.image-logo, img {
-    width: 150px;
-    height: 200px;
+.image-logo img {
+    width: 250px;
+    height: 250px;
 }
 
 .image-logo > p{
@@ -77,6 +80,7 @@ form {
     color: white;
     width: 350px;
     opacity: 50%;
+    
 }
 
 button {
@@ -103,11 +107,77 @@ button:hover {
     color: purple;
 }
 
+a:hover {
+    color: white;
+}
+
 footer {
     position: absolute;
     top: 920px;
     color: white;
     font-family: 'Brewell';
+    font-size: 36px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .background {
+        padding: 0;
+        background-size: auto;
+        justify-content: center;
+    }
+
+    .image-logo {
+        width: 375px;
+        height: 100px;
+    }
+
+    .image-logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .image-logo > p {
+        font-size: 7rem;
+    }
+
+    .form-area > .mock-text-service {
+        color: white;
+        font-size: 20px;   
+        word-spacing: 5px;
+    }
+
+    .form-right {
+        display: flex;
+        flex-flow: row wrap;
+        width: 350px;
+        height: 400px;
+        padding: 8px;
+    }
+ 
+    button {
+        height: 50px;
+        width: 90px;
+        border-radius: 8px;
+        margin-top: 32px;
+        margin-left: 8px;
+    }
+
+    .account-login {
+        font-size: 20px;
+        color: white;  
+    }
+
+    footer {
+        color: rgb(0, 0, 0);
+        font-size: 1px;
+    }
+    
+
 }
 
 
